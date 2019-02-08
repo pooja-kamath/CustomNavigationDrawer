@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XYZ.Core.UILayer.View.HomePage" BackgroundColor="White" >
+
+  <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Refine"  Activated="OnNextButtonClicked" Priority="0" Order="Primary"/>
+        <ToolbarItem Name="Next" Order="Primary" Priority="0" />
+        <ToolbarItem Name="" Order="Primary" Priority="0" />
+        <ToolbarItem Name="" Order="Primary" Priority="0" />
+        <ToolbarItem Name="" Order="Primary" Priority="0" />
+        <ToolbarItem Name="" Order="Primary" Priority="0" />
+
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout >
+            <StackLayout x:Name="stackLayout" Margin="0,0,0,0" WidthRequest="0" HeightRequest="0" Orientation="Vertical" BackgroundColor="Aqua">
+                <Label Text="Welcome" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand" />
+                <Label Text=" Xamarin.Forms!" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+            </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
